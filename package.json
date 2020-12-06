@@ -1,0 +1,41 @@
+{
+  "name": "adventofcode2020",
+  "version": "1.0.0",
+  "description": "- https://adventofcode.com/2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsindorf/adventofcode2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsindorf/adventofcode2020/issues"
+  },
+  "jest": {
+		"testEnvironment": "node",
+		"transform": {
+			".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
+  },
+  "prettier": {
+		"semi": true,
+		"singleQuote": true,
+		"trailingComma": "all"
+	},
+  "homepage": "https://github.com/hsindorf/adventofcode2020#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.16",
+    "@types/node": "^10.0.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^22.0.0",
+    "ts-node": "^6.0.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {}
+}
