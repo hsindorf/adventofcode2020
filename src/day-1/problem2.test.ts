@@ -209,6 +209,6 @@ describe('Fix Expense Report, three numbers', () => {
       1082,
       1071,
     ];
-    expect(fixExpenseReportThreeNumbers(input)).toEqual(0);
+    expect(fixExpenseReportThreeNumbers(input)).toEqual(131347190);
   });
 });
