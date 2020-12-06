@@ -15,8 +15,8 @@ export function getValidPassportCount(filename: string): number {
   let currentPassport = '';
   let validPassports = 0;
 
-  for (let i = 0; i <= data.length; i++) {
-    if (data.length === i || data[i].length === 0) {
+  for (const row of data) {
+    if (row.length === 0) {
       const presentFields = requiredFields.filter((field) => {
         const match = currentPassport.match(`${field}:.+?(\s|$)`);
         return match && match.length > 0;
@@ -28,7 +28,7 @@ export function getValidPassportCount(filename: string): number {
 
       currentPassport = '';
     } else {
-      currentPassport += ` ${data[i]}`;
+      currentPassport += ` ${row}`;
     }
   }
 

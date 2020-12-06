@@ -1,4 +1,6 @@
 # Advent of Code 2020 in TypeScript
+aka advent of regex
+
 - https://adventofcode.com/2020
 
 ## Finished Problems
