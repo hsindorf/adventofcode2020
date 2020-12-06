@@ -1,4 +1,4 @@
-import { fixExpenseReport } from './d1p1';
+import { fixExpenseReport } from './problem1';
 
 describe('Fix Expense Report', () => {
   test('returns the expected combination for a small sample input', () => {
