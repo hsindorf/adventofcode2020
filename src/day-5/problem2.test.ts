@@ -1,11 +1,11 @@
-import { getBoardingRow } from './problem1';
+import { getBoardingRow } from './problem2';
 
 describe('Boarding', () => {
-  test('works with a sample input', () => {
+  test.skip('works with a sample input', () => {
     expect(getBoardingRow('sample-input')).toEqual(44);
   });
 
-  test('works with a full input', () => {
+  test.skip('works with a full input', () => {
     expect(getBoardingRow('input')).toEqual(999);
   });
 });

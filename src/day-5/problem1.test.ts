@@ -13,6 +13,6 @@ describe('Boarding', () => {
   });
 
   test('gets the highest boarding pass number from the list, real data', () => {
-    expect(getHighestBoardingPass('input')).toEqual(99999);
+    expect(getHighestBoardingPass('input')).toEqual(919);
   });
 });
