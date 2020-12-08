@@ -9,6 +9,6 @@ describe('gets the sum of questions answered for customs forms', () => {
 
   test('full data', () => {
     const data = getInput('input');
-    expect(getShinyGoldBagBags(data)).toEqual(0);
+    expect(getShinyGoldBagBags(data)).toEqual(30899);
   });
 });
