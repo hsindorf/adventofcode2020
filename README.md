@@ -10,4 +10,4 @@ aka advent of regex
 - [x] Day 4
 - [x] Day 5
 - [x] Day 6
-- [ ] Day 7
+- [x] Day 7
